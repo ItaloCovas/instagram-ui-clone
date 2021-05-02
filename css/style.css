@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+}
+
+.principal {
+    display: flex;
+}
+
+.principal .principal-phone {
+    margin: 37px 0px 0px 422px;
+}
+
+.principal .principal-phone .slides-img {
+    position: absolute;
+    top: 135px;
+    left: 573px;
+}
+
+.principal .principal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .principal-login {
+    margin-top: 65px;
+    width: 350px;
+    max-height: 380px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border: 0.1rem solid rgba(112, 112, 112, 0.5);
+    align-items: center;
+}
+
+.principal-login img {
+    width: 50%;
+    margin: 20px 86.5px 12px 86.5px;
+}
+
+.principal-login input{
+    display: inline-block;
+    width: 258px;
+    height: 36px;
+    margin-bottom: 5px;
+    background: #fafafa;
+    font-size: 12px;
+    padding: 9px 0 7px 8px;
+    border: 0.1rem solid rgba(112, 112, 112, 0.5);
+    border-radius: 3px;
+    outline: none;
+}
+
+.principal-login input::placeholder {
+    color: #837979;
+}
+
+.principal-login input:focus {
+    border-color: rgba(112, 112, 112, 0.8);
+}
+
+.principal-login input:nth-last-of-type(1) {
+    margin-bottom: 15px;
+}
+
+.principal-login .enter {
+    margin: 8px 40px;
+    color: white;
+    width: 258px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #0095F6;
+    border-radius: 4px;
+}
+
+.principal-login .enter:hover {
+    cursor: pointer;
+}
+
+span {
+    font-size: 13px;
+    font-weight: bold;
+    color:rgb(142, 142, 142);
+    margin-top: 15px;
+    opacity: .8;
+    margin-bottom: 20px;
+}
+
+span::before,
+span::after {
+    content: "";
+    display: inline-block;
+    content: "";
+    border-top: .0750rem solid rgb(142, 142, 142);
+    width: 6.450rem;
+    margin: 5px 16px;
+    opacity: .4;
+}
+
+.principal-login .enter-with-facebook {
+    display: flex;
+}
+
+.principal-login .facebook-icon {
+    width: 15px;
+    height: 15px;
+    margin: 0px;
+}
+
+.principal-login .enter-with-facebook a{
+    font-size: 14px;
+    color: #385185;
+    font-weight: bold;
+    display: inline;
+    margin-left: 8px;
+}
+
+.principal-login .forgot-password {
+    font-size: 12px;
+    color: #00376b;
+    margin: 20px 0 20px 0;
+}
+
+.have-account {
+    margin: 10px 0px 0px 0px;
+    background: #FFF;
+    border: 0.1rem solid rgba(112, 112, 112, 0.5);
+    text-align: center;
+}
+
+.have-account p{
+    font-size: 14px;
+    padding: 20px;
+}
+
+.have-account a {
+    color: #0095f6;
+    font-weight: 600;  
+    opacity: .9;
+}
+
+.obtain-app {
+    text-align: center;
+    font-size: 14px;
+    margin: 25px 0px 15px 0px;
+}
+
+.download-app {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.download-app .img-download {
+    width: 136px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.download-app .img-download:nth-last-of-type(){
+    width: 134.28px;
+    height: 40px;
+}
+
+/* FOOTER */
+
+footer .first-row ul{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px 10px 0px;
+}
+
+footer .first-row ul li {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(142, 142, 142);
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+footer .second-row ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .second-row ul li {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(142, 142, 142);
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+footer .third-row ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+footer .third-row ul li {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(142, 142, 142);
+    margin-right: 15px;
+    font-weight: 400;
+}
